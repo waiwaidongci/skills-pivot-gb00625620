@@ -141,3 +141,10 @@ body[data-page="results"] .main > div > .panel { margin-top:1rem; }
   .account p { display:none; }
 }
 @media(prefers-reduced-motion:reduce) { *,*::after,*::before { transition:none!important; animation:none!important; } }
+
+/* 补招名额内部分析表单 */
+.field-group { border:1px solid var(--line); padding:.9rem 1rem 1rem; margin:0; display:grid; gap:.7rem; background:var(--paper); }
+.field-group legend { padding:0 .4rem; font-weight:650; }
+.limit-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr)); gap:.7rem; }
+.inline-field { display:grid; gap:.3rem; }
+.inline-field input { width:100%; }

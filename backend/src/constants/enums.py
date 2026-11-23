@@ -11,6 +11,13 @@ class Status(StrEnum):
     COMPLETE = 'complete'
     FAILED = 'failed'
 
+
+class QuotaStatus(StrEnum):
+    QUEUED = 'queued'
+    RUNNING = 'running'
+    COMPLETE = 'complete'
+    FAILED = 'failed'
+
 class Review(StrEnum):
     PENDING = 'pending'
     ACCEPTED = 'accepted'
